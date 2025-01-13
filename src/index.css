@@ -1,0 +1,19 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #131722;
+  color: #fbfbfb;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
